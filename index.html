@@ -11,9 +11,28 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Wellness test</h1>
+      <h1>What's your fortune?</h1>
     </div>
-
+    <form>
+      <div class="form-group">
+      <p>What does your fortune look like?  Select all that you've experienced in the past week.</p>
+      <input type="checkbox" name="fortune" value="2">Found a four-leaf clover <br>
+      <input type="checkbox" name="fortune" value="-2">Broke a mirror <br>
+      <input type="checkbox" name="fortune" value="-2">Walked under a ladder <br>
+      <input type="checkbox" name="fortune" value="2">Won the lottery <br>
+      <input type="checkbox" name="fortune" value="-2">Opened an umbrella indoors <br>
+      <input type="checkbox" name="fortune" value="2">Saw a lucky bamboo<br>
+      <input type="checkbox" name="fortune" value="2">Had some bird droppings on your windshield <br>
+      <input type="checkbox" name="fortune" value="-2">Said the word "Macbeth" while inside a theater<br>
+      <input type="checkbox" name="fortune" value="2">Accidentally break a bottle of alcohol <br>
+      <input type="checkbox" name="fortune" value="-2">Used a Ouija board<br>
+    </div>
+    <button type="submit" class="btn btn-large btn-info">Find your luck!</button>
+    </form>
+    <div class="fortune-result">
+      You are <span class="result"></span>!
+    </div>
   </div>
+
 </body>
 </html>
